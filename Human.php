@@ -12,7 +12,7 @@
 	}
 	
 	public function display() {
-		echo sprintf('%s %s %s<br>', $this->name, $this->surname, $this->patronymic);
+		echo sprintf('%s %s %s', $this->name, $this->surname, $this->patronymic);
 	}
 	}
 ?>
